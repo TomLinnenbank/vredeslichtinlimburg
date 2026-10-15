@@ -130,6 +130,93 @@ body {
   border-radius: 10px;
 }
 
+.news-poster {
+  position: relative;
+  max-width: 420px;
+  margin: 0 auto 1rem;
+  padding: 2rem 1.5rem 1.75rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #f3e6c4;
+  background:
+    radial-gradient(circle at 50% 110%, rgba(255, 170, 60, 0.45), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(255, 230, 160, 0.18), transparent 30%),
+    linear-gradient(180deg, #0b1830 0%, #13233f 60%, #2a1c10 100%);
+  overflow: hidden;
+}
+
+.news-poster p {
+  margin: 0;
+}
+
+.poster-logo {
+  width: 64px;
+  height: auto;
+  border-radius: 6px;
+  background: #fff;
+  padding: 3px;
+  margin-bottom: 1rem;
+}
+
+.poster-kicker {
+  font-family: Georgia, "Times New Roman", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 1rem;
+  color: var(--gold);
+}
+
+.poster-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  margin-top: 0.35rem !important;
+  color: #e9c766;
+  text-shadow: 0 0 18px rgba(212, 175, 55, 0.35);
+}
+
+.poster-nick,
+.poster-script {
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-style: italic;
+  font-size: 1.6rem;
+  color: #f3e6c4;
+}
+
+.poster-divider {
+  width: 70%;
+  height: 1px;
+  margin: 1.1rem auto;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.poster-details {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+}
+
+.poster-details li {
+  padding: 0.2rem 0;
+}
+
+.poster-details strong {
+  color: #fff;
+}
+
+.poster-script {
+  color: var(--gold);
+  font-size: 1.4rem;
+}
+
+.news-text a {
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
 .news-text p {
   margin: 0 0 0.75rem;
 }
